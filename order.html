@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders | JC's Cakes and Pastries</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <h2 class="logo">JC's Cakes and Pastries</h2>
+            <ul class="main-nav">
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="#">Orders</a></li>
+              <li><a href="Login.html">Login</a></li>
+              <li><a href="#">Create Account</a></li>
+            </ul>
+          </nav>
+    
+    </header>
+
+    <form action="#" class="order">
+  =      
+      <fieldset>
+       
+          <legend>Delivery Details</legend>
+          <div class="food-img">
+            <img src="Images/banana.jpg"  class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h3>Banana Cake</h3>
+            <p class="food-price">$2.3</p>
+          <div class="order-label">Full Name</div>
+          <input type="text" name="full-name" placeholder="E.g. Vijay Thapa" class="input-responsive" required>
+
+          <div class="order-label">Phone Number</div>
+          <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+
+          <div class="order-label">Email</div>
+          <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive" required>
+
+          <div class="order-label">Quantity</div>
+          <input type="number" name="qty" class="input-responsive" value="1" required>
+
+          <div class="order-label">Address</div>
+          <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+        
+          <input type="submit" name="remove" value="Delete" class="btn btn-primary">
+  
+          <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+        </div>
+      </fieldset>
+
+  </form>
+   
+
+    <footer id="footer">
+      <p>Location: </p>
+      <p>Brgy. Ambutong Sapal, Sibutu, Tawi-Tawi.</p>
+      <p>Contact Info: 09503366260.</p>
+      <p>All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

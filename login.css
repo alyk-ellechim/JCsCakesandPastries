@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.logo{
+    font-family: papyrus;
+    color: white;
+    margin: 7px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  nav,ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav {
+    padding: 0 10%;
+    background: rgba(4, 56, 88, 0.986);
+    
+    
+  }
+  header nav .main-nav {
+    width: 60%;
+  }
+  .main-nav li a {
+    font-family:  MS UI Gothic ;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .main-nav a:hover {
+    color: #8e8400;
+  }
+
+  /*Log in*/
+
+  .container{
+    width:340px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:rgba(255, 238, 206, 0.612);
+    text-align:center;
+  
+  }
+   h1
+  {
+      color: rgba(4, 56, 88, 0.986);
+      text-transform: uppercase;
+      font-weight: 700;
+  }
+  .container input
+  {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border:3px solid  rgb(255, 255, 255);
+  padding:14px 10px;
+  width:220px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition:0.25px;
+  }
+  
+  .container input[type="text"]:focus,.container input[type="password"]:focus{
+  
+  width:220px;
+  border-color: #ffc400ec;
+  
+  }
+ a{
+    text-align: center;
+    color: rgb(20, 20, 165);
+  }
+  .container input[type="submit"]{
+  
+  
+      border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border:3px solid #ffc40072;
+  padding:14px 35px;
+  outline: none;
+  color: rgba(4, 56, 88, 0.986);
+  border-radius: 24px;
+  transition:0.25px;
+  cursor:pointer;
+      
+  }
+  .container input[type="submit"]:hover{
+      background: #ffc40072;
+  }
+  
+  
+ 
+  @media screen and (max-width: 950px) {
+    nav {
+        flex-direction: column;
+        position: relative;
+      }
+      .main-nav {
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+    }
+
+    /*Log-in*/
+  
+  
+  @media only screen and (max-width:500px)
+  {
+   
+    /*login*/
+    .container{
+      width:280px;
+      font-size: x-small;
+    transform: translate(-50%,-40%);
+
+    
+    }
+    .forgot{
+      text-align: center;
+      font-size: small;
+    }
+    .container input
+  {
+   margin: 15px auto;
+  text-align: center;
+  border:3px solid  rgb(255, 255, 255);
+  padding:9px 5px;
+  width:180px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition:0.25px;
+  font-size: x-small;
+  }
+  .container input[type="text"]:focus,.container input[type="password"]:focus{
+  
+    width:180px;
+  
+    
+    }
+    .container input[type="submit"]{
+
+width: 100px;
+  padding:8px 0px;
+  outline: none;
+  color: rgba(4, 56, 88, 0.986);
+  border-radius: 24px;
+  transition:0.25px;
+  cursor:pointer;
+      
+  }
+    
+  footer{
+    background: rgb(49, 49, 49);
+    position: relative;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    
+    padding: 5px;
+
+}
+    
+    }
+
+
+/*footer*/
+
+footer{
+    background: rgb(49, 49, 49);
+    position: relative;
+	margin-top: 599px;
+	height: 40%;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+
+}
+      footer p{
+        color: rgb(209, 206, 206);
+        text-align: center;
+        font-size: small;
+        font-family: Libre Baskerville;
+      }
+
